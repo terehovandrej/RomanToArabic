@@ -3,7 +3,7 @@ package com.company;
 import java.util.Map;
 
 public class NotationConverter {
-    public int ToArabic(String romanNotation) throws InvalidValueException {
+    public int toArabic(String romanNotation) throws InvalidValueException {
         Map<String, Integer> map = Map.of(
                 "I", 1,
                 "V", 5,
